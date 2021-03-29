@@ -5,9 +5,17 @@
   color: white;
 }
 
+#heroimg {
+  width: 100%;
+}
+
 nav {
   background-color: #8ecf79;
   color: white;
+}
+
+li {
+  list-style-type: none;
 }
 
 ul .nav {
@@ -39,6 +47,14 @@ section {
   margin-top: 35px;
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.portfoliosect {
+  text-align: center;
+  margin-top: 35px;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 400px;
 }
 
 h1 {
@@ -78,11 +94,20 @@ div {
   background-color: #8ecf79;
 }
 
+/*button {
+    color: white;
+    border-radius: 40%;
+    background-color: $primary-color;
+    padding: 30px;
+} */
 button {
-  color: white;
-  border-radius: 40%;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
   background-color: #8ecf79;
-  padding: 30px;
+  border: 2px solid #8ecf79;
+  -webkit-transition: black;
+  transition: black;
 }
 
 a:link {
@@ -92,6 +117,7 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 .email {
@@ -100,5 +126,14 @@ a:hover {
 
 .white-border {
   border: 10px solid white;
+}
+
+iframe {
+  border: 1px solid black;
+  float: right;
+}
+
+#portfolioimg {
+  float: left;
 }
 /*# sourceMappingURL=styles.css.map */
